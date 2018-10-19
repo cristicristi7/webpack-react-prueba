@@ -1,0 +1,32 @@
+{
+  "name": "webpack-react-example",
+  "version": "1.0.0",
+  "description": "A simple webpack react example",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:raulanatol/webpack-react-example.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "keywords": [],
+  "author": {
+    "name": "raulanatol"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
